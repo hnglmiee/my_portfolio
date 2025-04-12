@@ -82,6 +82,10 @@ function AppBar() {
       }}>
         Profile
       </Button>
+
+      <Box>
+        <img src='../src/assets/images/star.png' style={{ width: 100 }} />
+      </Box>
     </Box>
   )
 }

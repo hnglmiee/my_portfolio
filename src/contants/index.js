@@ -3,8 +3,8 @@
 export const CATALOG_MOCK_DATAS = [
   { id: 'spaceArena', title: '@space arena', imgUrl: 'src/assets/images/SpaceArena.png', prevPage: '/catalog', nextPage: '/catalog/hackingTheRisks' },
   { id: 'hackingTheRisks', title: '@hacking the risks', imgUrl: 'src/assets/images/HackingTheRisks.png' },
-  { id: 'RodeBattle', title: '@R.ODE battle 2023', imgUrl: 'src/assets/images/RODEBattle.png' },
-  { id: 'KoiCareClinic', title: '@KoiCareClinic', imgUrl: 'src/assets/images/RODEBattle.png' },
+  { id: 'RodeBattle', title: '@R.ODE battle 2023', imgUrl: 'src/assets/images/RodeBattle/LandingPage.jpg' },
+  { id: 'KoiCareClinic', title: '@KoiCareClinic', imgUrl: 'src/assets/images/KoiCareClinic/Landing Page.png' },
   { id: 5, title: '@random things', imgUrl: 'src/assets/images/random.jpg' },
   { id: 6, title: '@bylam', imgUrl: 'src/assets/images/bylam.jpg' }
 ]
