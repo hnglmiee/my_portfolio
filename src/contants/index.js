@@ -5,8 +5,8 @@ export const CATALOG_MOCK_DATAS = [
   { id: 'hackingTheRisks', title: '@hacking the risks', imgUrl: 'src/assets/images/HackingTheRisks.png' },
   { id: 'RodeBattle', title: '@R.ODE battle 2023', imgUrl: 'src/assets/images/RodeBattle/LandingPage.jpg' },
   { id: 'KoiCareClinic', title: '@KoiCareClinic', imgUrl: 'src/assets/images/KoiCareClinic/Landing Page.png' },
-  { id: 5, title: '@random things', imgUrl: 'src/assets/images/random.jpg' },
-  { id: 6, title: '@bylam', imgUrl: 'src/assets/images/bylam.jpg' }
+  // { id: 5, title: '@random things', imgUrl: 'src/assets/images/random.jpg' },
+  // { id: 6, title: '@bylam', imgUrl: 'src/assets/images/bylam.jpg' }
 ]
 
 export const SPACE_ARENA_DATAS = [
@@ -80,7 +80,7 @@ export const HTR_IMG = [
     cols: 3
   },
   {
-    img: '../src/assets/images/HTRisks/Standee.png',
+    img: '../src/assets/images/HTRisks/all.jpg',
     title: 'Standee',
     rows: 1,
     cols: 3

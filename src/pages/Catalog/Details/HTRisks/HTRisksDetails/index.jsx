@@ -100,7 +100,7 @@ function Detail() {
           fontSize: '40px',
           color: '#fffcec'
         }}>
-          Programming contest
+          Academic Workshop
         </Typography>
 
         <Typography sx={{
@@ -109,7 +109,7 @@ function Detail() {
           fontSize: '20px',
           color: '#fffcec'
         }}>
-          Every year, the F-Code Club hosts R.ODE BATTLE, an event that aims<br /> to create a lively and healthy playground where students who are<br /> interested in information technology may practice and develop their skills.
+          An engaging session designed to raise awareness among IT students about cybersecurity threats,<br /> fraud, and how to stay protected in the digital world. This workshop aims to introduce key concepts<br /> in information security, highlight common hacking techniques, and explore real-world risks associated<br /> with cyberattacks. Participants will learn practical tips on how to identify vulnerabilities, protect personal<br /> and organizational data, and build a strong security mindset for their future careers.
         </Typography>
       </Box>
       <Container
@@ -209,7 +209,7 @@ function Detail() {
           fontSize: '20px',
           color: '#fffcec'
         }}>
-          This promises to provide an important career and opportunity to convert<br /> ambitions into reality in the field of information technology, with the goal<br /> of continuing to expand and becoming one of the top programming<br /> playgrounds.
+          This workshop promises to provide a valuable foundation for building a future in cybersecurity,<br /> offering opportunities to turn curiosity into expertise in the field of information technology.<br />With the mission of raising awareness and opening new paths of knowledge, it aims<br /> to inspire students to explore the world of digital security and contribute to shaping<br /> a safer cyber environment.
         </Typography>
       </Box>
       <Box sx={{
@@ -219,10 +219,29 @@ function Detail() {
         justifyContent: 'center',
         mb: '20px'
       }}>
-        <img src="../src/assets/images/HTRisks/LED.png" alt="Timeline" style={{
+        {/* <img src="../src/assets/images/HTRisks/LED.png" alt="Timeline" style={{
           height: 580
-        }} />
+        }} /> */}
       </Box>
+
+      <Box sx={{
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        my: '50px'
+      }}>
+        <Typography sx={{
+          fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
+          fontWeight: '300',
+          fontSize: '20px',
+          color: '#fffcec',
+          textAlign: 'center',
+        }}>
+          This workshop is designed for IT students with a keen interest in technology and a growing curiosity about cybersecurity. Hacking the Risks offers a practical introduction to digital threats, ethical hacking, and defense strategies in today’s tech-driven world. Whether you're exploring career paths or just want to deepen your knowledge, this is a great opportunity to get hands-on with the foundations of cybersecurity.
+        </Typography>
+      </Box>
+
+
       <Container maxWidth='xl' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Box ref={ref} maxWidth={'75vw'} sx={{
           display: 'flex',
@@ -257,7 +276,7 @@ function Detail() {
                   fontSize: '60px',
                   color: '#fffcec'
                 }}>
-                  {percentage + '%'}
+                  {'~' + 10.3 + 'K'}
                 </Typography>
                 <Typography sx={{
                   fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
@@ -265,7 +284,7 @@ function Detail() {
                   fontSize: '20px',
                   color: '#fffcec'
                 }}>
-                  Increase in enablement site visits
+                  Social media views
                 </Typography>
               </Box>
               <Box sx={{
@@ -280,7 +299,7 @@ function Detail() {
                   fontSize: '60px',
                   color: '#fffcec'
                 }}>
-                  {percentage + '%'}
+                  {'~' + 150}
                 </Typography>
                 <Typography sx={{
                   fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
@@ -288,7 +307,7 @@ function Detail() {
                   fontSize: '20px',
                   color: '#fffcec'
                 }}>
-                  Increase in enablement site visits
+                  Attendees
                 </Typography>
               </Box>
             </Box>

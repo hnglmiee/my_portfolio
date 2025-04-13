@@ -219,10 +219,23 @@ function Detail() {
         justifyContent: 'center',
         mb: '20px'
       }}>
-        <img src="../src/assets/images/HTRisks/LED.png" alt="Timeline" style={{
+        <img src="../src/assets/images/RodeBattle/all.jpg" alt="All" style={{
           height: 580
         }} />
       </Box>
+
+      <Box sx={{ mb: 20, mt: 20 }}>
+        <Typography sx={{
+          fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
+          fontWeight: '300',
+          fontSize: '20px',
+          color: '#fffcec',
+          textAlign: 'center'
+        }}>
+          R.ODE Battle is a coding competition designed for students who want to sharpen their skills in Front-End and Back-End development. Whether you're passionate about building sleek interfaces or architecting solid server-side logic, this event offers the perfect chance to challenge yourself, collaborate with others, and grow through friendly competition. It’s not just about winning — it’s about learning, coding smarter, and leveling up in both skills.
+        </Typography>
+      </Box>
+
       <Container maxWidth='xl' sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Box ref={ref} maxWidth={'75vw'} sx={{
           display: 'flex',
@@ -257,7 +270,7 @@ function Detail() {
                   fontSize: '60px',
                   color: '#fffcec'
                 }}>
-                  {percentage + '%'}
+                  {58 + 'K'}
                 </Typography>
                 <Typography sx={{
                   fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
@@ -265,7 +278,7 @@ function Detail() {
                   fontSize: '20px',
                   color: '#fffcec'
                 }}>
-                  Increase in enablement site visits
+                  Social Media Reach
                 </Typography>
               </Box>
               <Box sx={{
@@ -280,7 +293,7 @@ function Detail() {
                   fontSize: '60px',
                   color: '#fffcec'
                 }}>
-                  {percentage + '%'}
+                  {200 + '+'}
                 </Typography>
                 <Typography sx={{
                   fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
@@ -288,7 +301,7 @@ function Detail() {
                   fontSize: '20px',
                   color: '#fffcec'
                 }}>
-                  Increase in enablement site visits
+                  Competitors
                 </Typography>
               </Box>
             </Box>
@@ -303,7 +316,6 @@ function Detail() {
       <Box sx={{
         display: 'flex',
         justifyContent: 'space-between',
-        // marginTop: '40px'
         alignItems: 'center'
       }}>
         <Box component={'button'} onClick={handlePrevPageClick} sx={{

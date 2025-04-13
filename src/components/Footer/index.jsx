@@ -2,6 +2,10 @@ import React from 'react'
 import { Box, Typography } from '@mui/material'
 import Divider from '@mui/material/Divider'
 import { useLocation } from 'react-router-dom'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import Link from '@mui/material/Link';
+
 
 function Footer() {
   const location = useLocation()
@@ -57,7 +61,41 @@ function Footer() {
       }}>
         lamieedesign1204@gmail.com
       </Typography>
-    </Box>
+
+      <Box sx={{ display: 'flex', gap: 2 }}>
+        <Link
+          href="https://www.linkedin.com/in/hoang-lam-bui-pham-720266349/"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{ display: 'flex', gap: 1 }}
+        >
+          <LinkedInIcon
+            sx={{
+              fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
+              textTransform: 'lowercase',
+              fontSize: '30px',
+              marginTop: '10px',
+              color: color
+            }}
+          />
+        </Link>
+
+        <Link
+          href="https://github.com/hnglmiee"
+          target="_blank"
+          rel="noopener noreferrer"
+          sx={{ display: 'flex', gap: 1 }}
+        >
+          <GitHubIcon sx={{
+            fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
+            textTransform: 'lowercase',
+            fontSize: '28px',
+            marginTop: '10px',
+            color: color
+          }} />
+        </Link>
+      </Box>
+    </Box >
   )
 }
 

@@ -6,6 +6,9 @@ import Logo from '~/assets/images/KoiCareClinic/KoiCareClinic_Logo.png'
 import ArrowIcon from '~/assets/images/KoiCareClinic/arrow.png'
 import BackdropImage from '~/assets/images/KoiCareClinic/AboutUs.png'
 import AboutUs from '~/assets/images/KoiCareClinic/About Us.png'
+import Profile from '~/assets/images/KoiCareClinic/User_Account.png'
+import Statistic from '~/assets/images/KoiCareClinic/Admin_Dashboard_Bookings.png'
+
 import Staff from '~/assets/images/KoiCareClinic/Staff_Prescription.png'
 import Management from '~/assets/images/KoiCareClinic/Staff_Prescription (1).png'
 import Mobile from '~/assets/images/KoiCareClinic/Mobile.png'
@@ -130,18 +133,6 @@ function KoiCareClinicDetails() {
       </Container>
 
       <Container maxWidth="xl" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', mb: 0 }}>
-        {/* <ImageList sx={{ height: 720 }} cols={3} variant="quilted" rowHeight={350}>
-          {KOI_CARE_CLINIC_IMG.map((item) => (
-            <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
-              <img {...srcset(item.img, 350, item.rows, item.cols)} alt={item.title} loading="lazy" />
-            </ImageListItem>
-          ))}
-        </ImageList> */}
-        {/* <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', mb: '20px' }}>
-          <img src={BackdropImage} alt="Timeline" style={{ height: 500 }} />
-          <img src={Mobile} alt="Timeline" style={{ height: 600 }} />
-        </Box> */}
-
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', mb: '20px' }}>
           <Box>
             <Typography sx={{ fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif', fontWeight: '700', fontSize: '40px', color: '#051159' }}>
@@ -172,13 +163,13 @@ function KoiCareClinicDetails() {
       </Box>
 
 
-      <Box>
-        {/* <img src={AboutUs} alt="Timeline" style={{ height: 700 }} /> */}
+      <Box sx={{ display: 'flex', flexDirection: 'column', mb: 20 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 20, mb: 0 }}>
+          <img src={Staff} alt="Timeline" style={{ height: 400 }} />
+          <img src={Management} alt="Timeline" style={{ height: 400 }} />
+        </Box>
       </Box>
-      <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 20, mb: 0 }}>
-        <img src={Staff} alt="Timeline" style={{ height: 400 }} />
-        <img src={Management} alt="Timeline" style={{ height: 400 }} />
-      </Box>
+
 
       <Container maxWidth="xl" sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Box
@@ -193,18 +184,10 @@ function KoiCareClinicDetails() {
             <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 100 }}>
               <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
                 <Typography sx={{ fontFamily: 'ITC Kabel Std Ultra, Roboto, Arial, sans-serif', fontWeight: '700', fontSize: '60px', color: '#051159' }}>
-                  {percentage + '%'}
+                  {7 + '+'}
                 </Typography>
                 <Typography sx={{ fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif', fontWeight: '400', fontSize: '20px', color: '#051159' }}>
-                  Increase in enablement site visits
-                </Typography>
-              </Box>
-              <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                <Typography sx={{ fontFamily: 'ITC Kabel Std Ultra, Roboto, Arial, sans-serif', fontWeight: '700', fontSize: '60px', color: '#051159' }}>
-                  {percentage + '%'}
-                </Typography>
-                <Typography sx={{ fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif', fontWeight: '400', fontSize: '20px', color: '#051159' }}>
-                  Increase in enablement site visits
+                  Overall Score
                 </Typography>
               </Box>
             </Box>
@@ -225,7 +208,7 @@ function KoiCareClinicDetails() {
             color: 'primary.main',
             borderColor: 'transparent',
             '&:hover': { bgcolor: 'transparent', opacity: '50%' },
-            gap: 15,
+            gap: 15
           }}
         >
           <img src={ArrowIcon} alt="Previous" style={{ height: 60, transform: 'rotate(180deg)', color: '#d039af' }} />

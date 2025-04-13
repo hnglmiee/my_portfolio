@@ -19,7 +19,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 }
 
 function Detail() {
-  const [percentage, setPercentage] = useState('53')
+  const [percentage, setPercentage] = useState('50')
   const [prevPage, setPrevPage] = useState('/catalog')
   const [nextPage, setNextPage] = useState('/catalog')
   const navigate = useNavigate()
@@ -227,7 +227,7 @@ function Detail() {
         }}>
           <Typography textTransform={'uppercase'} sx={{
             fontFamily: 'Neue Kabel, Roboto, Arial, sans-serif',
-            fontWeight: '400',
+            fontWeight: '600',
             fontSize: '25px'
           }}>
             Result
@@ -238,7 +238,7 @@ function Detail() {
               justifyContent: 'space-between',
               gap: 100
             }}>
-              <Box sx={{
+              {/* <Box sx={{
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -258,7 +258,7 @@ function Detail() {
                 }}>
                   Increase in enablement site visits
                 </Typography>
-              </Box>
+              </Box> */}
               <Box sx={{
                 display: 'flex',
                 flexDirection: 'column',
